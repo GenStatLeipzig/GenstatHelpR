@@ -76,4 +76,4 @@ usethis::use_package("data.table", type = "Imports") # und weitere in der funkti
 devtools::build()
 
 usethis::use_version("patch") # neue Version: 0.0.1
-2
+
