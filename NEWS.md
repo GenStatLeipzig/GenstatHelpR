@@ -1,3 +1,5 @@
+# GenstatHelpR 0.0.2
+
 # GenstatHelpR 0.0.1
 * Added match_hk()
 
