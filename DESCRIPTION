@@ -1,6 +1,6 @@
 Package: GenstatHelpR
 Title: general helper functions required for internal work
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Holger",
            family = "Last",
