@@ -6,6 +6,7 @@
 
 
 .libPaths("/net/ifs1/san_projekte/projekte/genstat/07_programme/rpackages/amanMRO/")
+.libPaths("/net/ifs1/san_projekte/projekte/genstat/07_programme/rpackages/forostar/")
 .libPaths()
 library(devtools)
 library(usethis)
