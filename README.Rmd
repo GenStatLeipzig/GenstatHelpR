@@ -39,5 +39,7 @@ devtools::install_github(repo = "GenStatLeipzig/GenstatHelpR")
 
 ```{r example}
 library(GenstatHelpR)
-## basic example code
+
+
+
 ```
