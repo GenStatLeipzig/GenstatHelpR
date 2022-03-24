@@ -26,6 +26,7 @@
 #' @export
 #' @importFrom stats na.omit
 #' @importFrom data.table data.table
+#' @importFrom utils installed.packages
 
 match_hk = function(x, y, testunique =T, makeunique = F,importcol = NULL,showMessages = T, ...) {
   ##150122 makeunique = F statt T, na.omit bei duplicated y, fehlenden ok fall includiert
@@ -60,7 +61,7 @@ match_hk = function(x, y, testunique =T, makeunique = F,importcol = NULL,showMes
         matcher = matcher[ index %in% x]
         matchercheck = matcher[,as.numeric(sum(duplicated(stats::na.omit(index))))]
         if(identical(matchercheck, 0)==F  ) {
-          if(showMessages ==T) print(matcher[allDuplicatedEntries(matcher$index)])
+          if(showMessages ==T) print(matcher[show_duplicated_hk(matcher$index)])
           stop(paste(yname ,"ist nicht unique after trying to make index and importcol unique..."))
         }
       }
@@ -70,7 +71,7 @@ match_hk = function(x, y, testunique =T, makeunique = F,importcol = NULL,showMes
         matcher = matcher[ matcher$index %in% x,]
         matchercheck = as.numeric(sum(duplicated(stats::na.omit(matcher$index))))
         if(identical(matchercheck, 0)==F  ) {
-          if(showMessages ==T) print(matcher[allDuplicatedEntries(matcher$index),])
+          if(showMessages ==T) print(matcher[show_duplicated_hk(matcher$index),])
           stop(paste(yname ,"ist nicht unique after trying to make index and importcol unique..."))
         }
       }
