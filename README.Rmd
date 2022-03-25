@@ -22,18 +22,17 @@ The goal of GenstatHelpR is to collect useful convenience-functions created in t
 
 ## Installation
 
-When available, you can install the released version of GenstatHelpR from [CRAN](https://CRAN.R-project.org) with:
-
-``` {r, eval = FALSE}
-install.packages("GenstatHelpR")
-```
-
-Until then, you can install the package from GitHub:
+You can install the package from GitHub:
 
 ```{r, eval = FALSE}
 devtools::install_github(repo = "GenStatLeipzig/GenstatHelpR")
 ```
 
+When available, you can install the released version of GenstatHelpR from [CRAN](https://CRAN.R-project.org) with:
+
+``` {r, eval = FALSE}
+install.packages("GenstatHelpR")
+```
 
 ## Example
 
