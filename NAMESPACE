@@ -2,6 +2,7 @@
 
 export("%>%")
 export(change_dt_cols_cb)
+export(interactionTest_jp)
 export(match_hk)
 export(newest_file_cb)
 export(show_duplicated_hk)
