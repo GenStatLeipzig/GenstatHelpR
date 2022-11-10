@@ -27,6 +27,7 @@
 #' @importFrom stats na.omit
 #' @importFrom data.table data.table
 #' @importFrom utils installed.packages
+#' @author holger.kirsten@imise.uni-leipzig.de
 
 match_hk = function(x, y, testunique =T, makeunique = F,importcol = NULL,showMessages = T, ...) {
   ##150122 makeunique = F statt T, na.omit bei duplicated y, fehlenden ok fall includiert
