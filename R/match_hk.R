@@ -1,5 +1,5 @@
 #' @title advanced matching
-#' @description customized version of match() function, handling duplicate IDs and non-clear IDs when adding data from a look-up table to a target table via an ID
+#' @description customized version of match() function, checking for duplicate IDs and avoiding using NAs as matching-identifyer
 #' @param x Vector of IDs from the target table that should be extended with look-up information, see match()
 #' @param y Vector of IDs from the lookup table, see match()
 #' @param testunique test that the same ID is not present in the look-up table serveral times, Default: T
