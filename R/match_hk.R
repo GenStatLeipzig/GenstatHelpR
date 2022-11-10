@@ -1,5 +1,5 @@
 #' @title advanced matching
-#' @description customized version of match() function, handling duplicate IDs and non-clear IDs when adding data from a look-up table to a target table via an ID
+#' @description customized version of match() function, checking for duplicate IDs and avoiding using NAs as matching-identifyer
 #' @param x Vector of IDs from the target table that should be extended with look-up information, see match()
 #' @param y Vector of IDs from the lookup table, see match()
 #' @param testunique test that the same ID is not present in the look-up table serveral times, Default: T
@@ -27,6 +27,7 @@
 #' @importFrom stats na.omit
 #' @importFrom data.table data.table
 #' @importFrom utils installed.packages
+#' @author holger.kirsten@imise.uni-leipzig.de
 
 match_hk = function(x, y, testunique =T, makeunique = F,importcol = NULL,showMessages = T, ...) {
   ##150122 makeunique = F statt T, na.omit bei duplicated y, fehlenden ok fall includiert
