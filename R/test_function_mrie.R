@@ -12,7 +12,7 @@
 #' @rdname test_function
 #' @export 
 #' 
-test_function <- function(x){
+test_function_mrie <- function(x){
     print("test")
 }
 
