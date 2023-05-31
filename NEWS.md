@@ -1,5 +1,3 @@
-# GenstatHelpR 0.0.5
-
 # GenStatHelpR 0.0.5
 * added %nin% function, update docu
 
