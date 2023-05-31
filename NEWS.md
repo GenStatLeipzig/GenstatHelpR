@@ -1,3 +1,8 @@
+# GenstatHelpR 0.0.5
+
+# GenStatHelpR 0.0.5
+* added %nin% function, update docu
+
 # GenStatHelpR 0.0.4
 * Added functions from CarlHelpR: str_extract_cb, change_dt_cols_cb, time_stamp_cb, newest_file_cb
 * added fucntions from toolboxH: allDuplicatedEntries as show_duplicated_hk()
