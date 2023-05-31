@@ -1,6 +1,6 @@
 Package: GenstatHelpR
 Title: general helper functions required for internal work
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: 
     person(given = "Holger",
            family = "Last",
@@ -12,7 +12,7 @@ License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Imports: 
     data.table,
     here,

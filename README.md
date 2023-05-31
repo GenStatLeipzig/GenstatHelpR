@@ -25,6 +25,13 @@ Until then, you can install the package from GitHub:
 devtools::install_github(repo = "GenStatLeipzig/GenstatHelpR")
 ```
 
+or the devel version
+Until then, you can install the package from GitHub:
+
+``` r
+devtools::install_github(repo = "GenStatLeipzig/GenstatHelpR@devel")
+```
+
 ## Example
 
 ``` r

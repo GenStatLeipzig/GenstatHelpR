@@ -33,7 +33,7 @@ match_hk(
 vector of same length as x (target data) or NA if there is no match, see match()
 }
 \description{
-customized version of match() function, handling duplicate IDs and non-clear IDs when adding data from a look-up table to a target table via an ID
+customized version of match() function, checking for duplicate IDs and avoiding using NAs as matching-identifyer
 }
 \details{
 see match() function
@@ -52,4 +52,7 @@ if(interactive()){
 \seealso{
 \code{\link[stats]{na.fail}}
 \code{\link[data.table]{data.table-package}}
+}
+\author{
+holger.kirsten@imise.uni-leipzig.de
 }
